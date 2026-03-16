@@ -17,9 +17,9 @@ public class StatisticsHelper
         return Convert.ToInt32(hex, 16);
     }
 
-    public static int CalculateAverage(int[] numbers)
+    public static double CalculateAverage(int[] numbers)
     {
-        int sum = 0;
+        double sum = 0;
         foreach (int number in numbers)
         {
             sum += number;
