@@ -11,4 +11,9 @@ public class StatisticsHelper
     {
         return text;
     }
+
+    public static int HexToInt(string hex)
+    {
+        return Convert.ToInt32(hex, 16);
+    }
 }
