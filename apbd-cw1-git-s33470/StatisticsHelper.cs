@@ -6,4 +6,9 @@ public class StatisticsHelper
     {
         return text.Length;
     }
+
+    public static string GetText(string text)
+    {
+        return text;
+    }
 }
