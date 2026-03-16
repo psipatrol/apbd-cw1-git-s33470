@@ -40,9 +40,9 @@ public class StatisticsHelper
         return max;
     }
     
-    public static int CalculateMin(int[] numbers)
+    public static double CalculateMin(int[] numbers)
     {
-        int min = int.MaxValue;
+        double min = int.MaxValue;
         foreach (int number in numbers)
         {
             if (number < min) 
